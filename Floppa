@@ -93,7 +93,7 @@ local function findGuiAndSetText()
 
             if textLabel then
 
-                textLabel.Text = "CREEPER? AW MANN."
+                textLabel.Text = "AWAKENED FLOPPA"
 
             end
 
