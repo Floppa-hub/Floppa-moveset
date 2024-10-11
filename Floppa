@@ -15,7 +15,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "DUMPLING KICKS"
+ToolName.Text = "DUMPLING BARRAGE"
 
 
 local player = game.Players.LocalPlayer
@@ -33,7 +33,7 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "HOT DUMPLING EXPLOSION"
+ToolName.Text = "FURNACE WITH DUMPLINGS"
 
 
 local player = game.Players.LocalPlayer
@@ -51,7 +51,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = HOT DUMPLING THROW"
+ToolName.Text = "HOT DUMPLING"
 
 
 local player = game.Players.LocalPlayer
@@ -69,7 +69,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "DUMPLING STRONG KICK"
+ToolName.Text = "DUMPLING KICK"
 
 
 local Players = game:GetService("Players")
@@ -156,6 +156,7 @@ Anim:AdjustSpeed(0)
 Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1.3)
+
 local final2 = game.ReplicatedStorage.Resources.KJEffects["KJWallCombo"].FinalImpact.Origin:Clone()
 final2.Parent = game.Players.LocalPlayer.Character["Right Arm"]
     for _, child in ipairs(final2:GetChildren()) do
@@ -191,7 +192,6 @@ final6.Parent = game.Players.LocalPlayer.Character["Right Arm"]
             child:Emit(1) -- Emit 20 particles
         end
     end
-
     end
 
 end
@@ -355,7 +355,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://13497875049"
+AnimAnim.AnimationId = "rbxassetid://12296882427"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
